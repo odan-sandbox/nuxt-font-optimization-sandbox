@@ -30,7 +30,7 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
-    ['@nuxtjs/google-fonts', { families: { Inter: true }, display: 'swap', download: true }]
+    ['@nuxtjs/google-fonts', { families: { Inter: true }, display: 'optional', download: true }]
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
