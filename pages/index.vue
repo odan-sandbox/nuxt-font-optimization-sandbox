@@ -28,14 +28,6 @@ export default Vue.extend({})
 .title1 {
   font-family:
     'Inter',
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
     sans-serif;
   display: block;
   font-weight: 300;
@@ -45,16 +37,7 @@ export default Vue.extend({})
 }
 
 .title2 {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
