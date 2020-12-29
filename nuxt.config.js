@@ -14,6 +14,7 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
+    '@/assets/css/fonts.css'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -28,7 +29,8 @@ export default {
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/stylelint
-    '@nuxtjs/stylelint-module'
+    '@nuxtjs/stylelint-module',
+    ['@nuxtjs/google-fonts', { families: { Inter: true }, display: 'swap', download: true }]
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
