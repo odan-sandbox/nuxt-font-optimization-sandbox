@@ -1,4 +1,5 @@
 export default {
+  target: 'static',
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'nuxt-font-optimization-sandbox',
@@ -14,7 +15,6 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
-    '@/assets/css/fonts.css'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -30,7 +30,7 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
-    ['@nuxtjs/google-fonts', { families: { Inter: true }, display: 'block', download: true }]
+    ['@nuxtjs/google-fonts', { families: { Inter: true }, display: 'block', download: true, inject: true }]
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
